@@ -1,0 +1,25 @@
+{
+  "name": "ranvier",
+  "version": "1.0.0",
+  "description": "Ranvier client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "nodemon dist/main.js",
+    "test": "jest",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w"
+  },
+  "author": "Joshua Owens",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "@types/ws": "^6.0.1",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "ws": "^7.0.0"
+  }
+}
